@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alegreya+SC&family=Holtwood+One+SC&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alegreya+SC&family=Gochi+Hand&family=Holtwood+One+SC&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=STIX+Two+Text&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="to_dolist.css" />
+    <title>To Do List</title>
+  </head>
+  <body>
+    <nav>
+      <h1><b>To Do List</b> <sub>Get Things Done!</sub></h1>
+    </nav>
+    <div id="top">
+      <input id="input_task" type="text" placeholder="Add Text" />
+      <input type="date" id="dates">
+      <select id="priority">
+        <option>Not Set</option>
+        <option>High</option>
+        <option>Medium</option>
+        <option>Low</option>
+      </select>
+      <button id="add_note"><i class="fas fa-plus"></i>Add Note</button>
+    </div>
+    <div id="container">
+      <div class="box" id="note">
+        <p id="def_info">
+          <b>G E T - S T A R T E D !</b><br />
+          Add something.
+          <br />
+          # This is a To-Do List. <br />
+          # This is the default note and can't be deleted. <br />
+          # Unlimited number of notes. <br />
+          # Unlimited space. <br />
+          # Consist of a delete button. <br />
+          # The box size is fixed. <br />
+          # Has scroll bar if needed. <br />
+          # Can set dates for each note.
+        </p>
+
+        <button id="dele">
+          <!-- <button id="dele" onclick="def()"> -->
+          <i class="fas fa-trash"></i>
+        </button>
+      </div>
+    </div>
+  </body>
+  <script src="todolist.js"></script>
+</html>

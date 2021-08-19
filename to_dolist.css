@@ -1,0 +1,105 @@
+body {
+    color: #ffffff;
+    background-color: #032338;
+  }
+  nav {
+    margin: 0.2em;
+    padding-left: 1.1em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    color: #032338;
+    border: 0.3em solid #b6b1b17a; 
+    border-radius: 4em;
+    font-size: 1.3em;
+    font-family: 'Alegreya SC', serif;
+  }
+  sub {
+    font-size: 0.6em;
+    font-family: 'Gochi Hand', cursive;
+  }
+  #top{
+    background-color: #b6b1b17a;
+    text-align: center;
+    margin: 1em;
+    border-radius: 0.9em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  ::-webkit-scrollbar{
+    background-color: #b6b1b17a;
+    border: 3px solid #000000;
+    border-radius: 1em;
+  }
+  button {
+    color: #ffffff;
+    background-color: #032338;
+    margin: 0.5em;
+    padding: 0.5em;
+    border: 5px double #032338;
+    border-radius: 0.6em;
+    font-family: 'STIX Two Text', serif;
+  }
+  button:hover {
+    background-color: #b6b1b17a;
+    color: #032338;
+  }
+  button:active {
+    background-color: #ffffff;
+    color: #032338;
+  }
+  #container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 0.2em;
+    padding: 0.5em;
+  }
+  .box {
+    padding: 1em;
+    margin: 0.5em;
+    display: inline-block;
+    background-color: #b6b1b17a;
+    border-radius: 1em;
+    box-shadow: 3px 2px 4px #ffffff;
+    width: 20em;
+    height: 14em;
+  }
+  input, #priority, #dates {
+    background-color: #b6b1b17a;
+    color: #ffffff;
+    width: 15%;
+    margin: 0.5em;
+    padding: 0.5em;
+    border-radius: 0.3em;
+    font-size: 1em;
+    outline: none;
+    font-family: 'STIX Two Text', serif;
+  }
+  #priority{
+    border: 2px solid #000000;
+    border-radius: 5px;
+  }
+  option{
+    background-color: #ffffff;
+    color: #000000;
+  }
+  input::placeholder{
+    color: #ffffff;
+  }
+  .ch-box{
+    width: 11%;
+  }
+  #info, #def_info{
+    overflow: auto;
+    border: 0px solid;
+    padding-left: 2px;
+    border-radius: 0.7em;
+    height: 11em;
+    width: 16em;
+    display: inline-block;
+    font-family: 'STIX Two Text', serif;
+  }
